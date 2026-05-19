@@ -1,0 +1,67 @@
+name: twc
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^4.6.0
+  firebase_auth: ^6.3.0
+  cloud_firestore: ^6.2.0
+  email_validator: ^3.0.0
+  pdf: ^3.10.4
+  printing: ^5.14.3
+  table_calendar: ^3.0.9
+  cupertino_icons: ^1.0.8
+  firebase_auth_web: ^6.1.4
+  cloud_firestore_web: ^5.2.0
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.5
+  mailer: ^7.1.0
+  google_fonts: ^8.0.2
+  intl: ^0.20.2
+  image_picker: ^1.1.2
+  firebase_storage: ^13.2.0
+  cloudinary_public: 0.23.1
+  speech_to_text: ^7.3.0
+  fl_chart: ^1.2.0
+  flutter_tts: ^3.8.3
+  encrypt: ^5.0.3
+  url_launcher: ^6.3.0
+  shared_preferences: ^2.5.5
+  geolocator: ^14.0.2
+  google_maps_flutter: ^2.17.0
+  google_mlkit_text_recognition: ^0.13.0
+  google_mlkit_smart_reply: ^0.11.0
+  geocoding: ^4.0.0
+  image: ^4.8.0
+  http: ^1.6.0
+  flutter_polyline_points: ^3.1.0
+  video_player: ^2.11.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.4.4
+  # استبدلنا firebase_auth_mocks بحزم اختبار متوافقة
+  fake_cloud_firestore: any
+  network_image_mock: ^2.1.1
+  flutter_lints: ^6.0.0
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/images/start.png
+    - assets/images/profile.png
+    - assets/images/certificate.png
+    - assets/videos/
+  uses-material-design: true
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto.ttf
