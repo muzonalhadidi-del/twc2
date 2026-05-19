@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "824131407632",
+    "project_id": "together-we-can-5d6e9",
+    "storage_bucket": "together-we-can-5d6e9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824131407632:android:2fd3db055f37adb5941f95",
+        "android_client_info": {
+          "package_name": "material.dart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaeTOSeqek_A6O4lb9TBkoT5zpeS90-7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
